@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>linqmethods.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="arraylist.cs" />
+    <Compile Remove="conversionops.cs" />
+    <Compile Remove="linqsyntaxes.cs" />
+    <Compile Remove="listmethods.cs" />
+    <Compile Remove="partition-operators.cs" />
+    <Compile Remove="sortingoperators.cs" />
+    <Compile Remove="Student.cs" />
+  </ItemGroup>
+
+</Project>
